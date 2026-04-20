@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+# Jupyter
+.ipynb_checkpoints/
+# macOS
+.DS_Store
+# Environment
+.env
+# AI transcripts
+ai_transcript.md
+ai_transcript.zip
+*.transcript.md
