@@ -1,0 +1,13 @@
+# Generate simulated temperature readings from two sensors.
+# Sensor A: mean 25 C, std 3 C, 200 readings.
+# Sensor B: mean 27 C, std 4.5 C, 200 readings.
+# Also generate 200 timestamps uniformly from 0 to 10 seconds.
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+rng = np.random.default_rng(1234)
+
+sensor_a = rng.normal(25, 3, 200)
+sensor_b = rng.normal(27, 4.5, 200)
+timestamps = rng.uniform(0, 10, 200)
